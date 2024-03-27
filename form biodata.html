@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Biodata</title>
+<style>
+fieldset {
+  background-color: #FAEBD7	;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+</style>
+</head>
+<body>
+<form action="" method="post">
+<fieldset>
+<legend><font size="2"> BIODATA PRIBADI </font></legend>
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td><input size="20" type="text" value="Anton"></td>
+    </tr>
+    <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td><textarea cols="30" rows="4" placeholder="masukkan alamat lengkap anda disini"></textarea>
+		</td>
+    </tr>
+    <tr>
+        <td>TTL</td>
+        <td>:</td>
+		<td><input size="20" type="text">
+		<input type="date"></td>
+    </tr>
+    
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td><input type="radio" name="Kelamin" value="Laki-laki" checked />laki-laki
+            <input type="radio" name="Kelamin" value="Perempuan" />Perempuan</td>
+    </tr>
+        
+    
+    <tr>
+        <td>Agama</td>
+        <td>:</td>
+        <td><select>                    <option>-Agama-</option>
+                                        <option selected>Islam</option>
+                                        <option>Kristen</option>
+                                        <option>Budha</option>
+                                        <option>Hindu</option></select></td>
+    </tr>
+
+    <tr>
+        <td>Hobby</td>
+        <td>:</td>
+        <td><input type="checkbox" />Olahraga    <input type="checkbox" checked  />Membaca    <input type="checkbox" checked  />Komputer    <input type="checkbox" />Musik    <input type="checkbox"  />Berenang<input type="checkbox"  />Masak</td>
+    </tr>
+    
+    <tr>
+        <td valign="top">Motto</td>
+        <td valign="top">:</td>
+        <td><textarea cols="30" rows="4" placeholder="isikan motto anda disini"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td><input type="reset" name="reset" value="Reset">
+        <input type="submit" name="submit" value="Simpan"></td>
+    </tr>
+</table>
+</fieldset>
+</form> 
+</body>
+</html>
